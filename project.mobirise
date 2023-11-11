@@ -61,7 +61,7 @@
     "versionPublish": "5.9.4",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "1g7klkybqg",
+    "mbrsiteDomain": "fh2hikv1nk",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -70,7 +70,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "global_header_custom": "<style>\n.header1 {\nscroll-margin-top: 38px;\n}\n</style>",
+    "global_header_custom": "<style>\n.header1 {\nscroll-margin-top: 38px;\n}\n.nav-item .nav-link:hover, .nav-item .nav-link:focus {\n  color: #dc3545!important;\n}\n</style>",
     "publishChangesOnly": true,
     "mcSmartCart": {
       "currency": "USD"
@@ -91,6 +91,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -2839,6 +2842,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -4712,6 +4718,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -6515,6 +6524,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -8261,6 +8273,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -10190,6 +10205,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -12033,6 +12051,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -13651,6 +13672,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -15360,6 +15384,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -17234,6 +17261,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -19108,6 +19138,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -20982,6 +21015,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -22856,6 +22892,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -24730,6 +24769,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -26533,6 +26575,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -28336,6 +28381,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -30139,6 +30187,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
@@ -31942,6 +31993,9 @@
         {
           "alias": false,
           "_styles": {
+            ".nav-item .nav-link::before": {
+              "background-color": "#dc3545!important"
+            },
             ".game-dropdown-grid": {
               "display": "grid",
               "grid-template-columns": "auto auto auto auto",
