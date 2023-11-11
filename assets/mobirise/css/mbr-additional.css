@@ -1517,6 +1517,16 @@ a {
   overflow: hidden;
   background: #ffffff;
 }
+.cid-tTYq5iTijo .sliderbox {
+  scale: 1.5;
+  margin: 4rem 5rem 5rem 5rem;
+}
+@media (max-width: 768px) {
+  .cid-tTYq5iTijo .sliderbox {
+    scale: 1.1;
+    margin: 0.5rem 5rem 5rem 5rem;
+  }
+}
 .cid-tTYq5iTijo .mbr-fallback-image.disabled {
   display: none;
 }
@@ -1756,6 +1766,12 @@ a {
   font-family: 'Schibsted Grotesk', sans-serif;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-left: -40px;
+}
+@media (max-width: 768px) {
+  .cid-tTYy0XBadK .section-title {
+    margin-left: 0;
+  }
 }
 .cid-tTYy0XBadK .mbr-fallback-image.disabled {
   display: none;
