@@ -120,8 +120,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -1338,10 +1338,8 @@
             },
             ".steps": {
               "padding": "1rem",
-              "backdrop-filter": "blur(5px)",
-              "background-color": "#4c4b6fa1",
+              "background-color": "#e2faff",
               "border-radius": "16px",
-              "border": "1px solid #59587b",
               "margin-bottom": "2rem",
               ".phone": {
                 "width": "80%",
@@ -1429,7 +1427,7 @@
               "color": "#0077ff"
             },
             ".mbr-text, .link-wrap": {
-              "color": "#ffffff",
+              "color": "#000000",
               "text-align": "center"
             },
             ".mbr-fallback-image.disabled": {
@@ -1449,10 +1447,10 @@
             },
             ".card-title, .card-box": {
               "text-align": "center",
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content01\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#000000\" selected>\n\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/frame-34-1646x1451.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"transparent\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        \n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row no-gutters\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-12 md-pb\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"img-wrapper align-center\">\n                        <img class=\"phone\" src=\"@PROJECT_PATH@/assets/images/frame-888x1432.png\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h3 class=\"card-subtitle align-left pb-1 mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\" data-app-selector=\".card-subtitle\">\n                            <b>Elevate your business</b></h3>\n                        <h4 class=\"card-title pb-1 align-left mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Winbox is the Best Online Casino in Malaysia.</b></h4>\n                        <h4 class=\"card-title pb-3 align-left mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">Join now in <a href=\"www.winboxplayer.com\" class=\"text-danger\">www.winboxplayer.com</a><br></h4>\n                        <p class=\"mbr-text pb-3 mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap\">3 Steps to start Playing Winbox:</p>\n                        <div class=\"container\">\n  <div class=\"stepsrow no-gutters row row-cols-1 row-cols-md-3\">\n    <div class=\"col\"><div class=\"steps\">\n        <img class=\"img-fluid\" src=\"@PROJECT_PATH@/assets/images/frame-34-330x330.png\" alt>\n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://winbox.go2u.cc/WINBOX/Register/Index?TPAxvP/Ku8/0W0j2qHlKLKXDNYS4jYhtU2RkqtfIq0ds9UHxsp640WGiucuUdgB8CiKK/uvGCPe7MU2GLGXenzvA/3o0NdTomHVOiogxnX9eU49dITdX+HCRINKA8FIVf0b5cx6c2RrZH5aHzcptZSbqefACUPeKfB2oDpmeG9koB/Ks+PgHuHA2QmtHhIu+\" data-app-placeholder=\"Type Text\">1. Register for FREE</a></div>\n      </div></div>\n    <div class=\"col\"><div class=\"steps\">\n        <img class=\"img-fluid\" src=\"@PROJECT_PATH@/assets/images/frame-36-330x330.png\" alt>\n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" data-app-placeholder=\"Type Text\" href=\"download.html\">2. Download App</a></div>\n      </div></div>\n      <div class=\"col\"><div class=\"steps\">\n        <img class=\"img-fluid\" src=\"@PROJECT_PATH@/assets/images/frame-35-330x330.png\" alt>\n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://winbox.go2u.cc/WINBOX/Register/Index?TPAxvP/Ku8/0W0j2qHlKLKXDNYS4jYhtU2RkqtfIq0ds9UHxsp640WGiucuUdgB8CiKK/uvGCPe7MU2GLGXenzvA/3o0NdTomHVOiogxnX9eU49dITdX+HCRINKA8FIVf0b5cx6c2RrZH5aHzcptZSbqefACUPeKfB2oDpmeG9koB/Ks+PgHuHA2QmtHhIu+\" data-app-placeholder=\"Type Text\">3. Enjoy Winbox</a></div>\n      </div></div>\n  </div>\n</div>\n                        <div class=\"steps-more\">\n                            <img class=\"img-fluid\" src=\"@PROJECT_PATH@/assets/images/direct-transfer-573x147.png\" alt><p>Mudah Top Up dan Janji Cuci Kredit</p>\n                        </div>\n                        \n                    </div>\n                    \n                </div>\n            </div>\n\n\n\n\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content01\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#000000\" selected>\n\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/frame%2034-1646x1451.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"transparent\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        \n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row no-gutters\">\n\n\n            <div class=\"card col-12 col-md-12 col-lg-12 md-pb\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"img-wrapper align-center\">\n                        <img class=\"phone\" src=\"@PROJECT_PATH@/assets/images/frame-888x1432.png\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h3 class=\"card-subtitle align-left pb-1 mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\" data-app-selector=\".card-subtitle\">\n                            <b>Elevate your business</b></h3>\n                        <h4 class=\"card-title pb-1 align-left mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Winbox is the Best Online Casino in Malaysia.</b></h4>\n                        <h4 class=\"card-title pb-3 align-left mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">Join now in <a href=\"www.winboxplayer.com\" class=\"text-danger\">www.winboxplayer.com</a><br></h4>\n                        <p class=\"mbr-text pb-3 mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .link-wrap\">3 Steps to start Playing Winbox:</p>\n                        <div class=\"container\">\n  <div class=\"stepsrow no-gutters row row-cols-1 row-cols-md-3\">\n    <div class=\"col\"><div class=\"steps\">\n        <img class=\"img-fluid\" src=\"@PROJECT_PATH@/assets/images/frame-38.png\" alt>\n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://winbox.go2u.cc/WINBOX/Register/Index?TPAxvP/Ku8/0W0j2qHlKLKXDNYS4jYhtU2RkqtfIq0ds9UHxsp640WGiucuUdgB8CiKK/uvGCPe7MU2GLGXenzvA/3o0NdTomHVOiogxnX9eU49dITdX+HCRINKA8FIVf0b5cx6c2RrZH5aHzcptZSbqefACUPeKfB2oDpmeG9koB/Ks+PgHuHA2QmtHhIu+\" data-app-placeholder=\"Type Text\">1. Register for FREE</a></div>\n      </div></div>\n    <div class=\"col\"><div class=\"steps\">\n        <img class=\"img-fluid\" src=\"@PROJECT_PATH@/assets/images/frame-39.png\" alt>\n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" data-app-placeholder=\"Type Text\" href=\"download.html\">2. Download App</a></div>\n      </div></div>\n      <div class=\"col\"><div class=\"steps\">\n        <img class=\"img-fluid\" src=\"@PROJECT_PATH@/assets/images/frame-40.png\" alt>\n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://winbox.go2u.cc/WINBOX/Register/Index?TPAxvP/Ku8/0W0j2qHlKLKXDNYS4jYhtU2RkqtfIq0ds9UHxsp640WGiucuUdgB8CiKK/uvGCPe7MU2GLGXenzvA/3o0NdTomHVOiogxnX9eU49dITdX+HCRINKA8FIVf0b5cx6c2RrZH5aHzcptZSbqefACUPeKfB2oDpmeG9koB/Ks+PgHuHA2QmtHhIu+\" data-app-placeholder=\"Type Text\">3. Enjoy Winbox</a></div>\n      </div></div>\n  </div>\n</div>\n                        \n                    </div>\n                    \n                </div>\n            </div>\n\n\n\n\n\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "content08-3f",
@@ -2871,8 +2869,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -4747,8 +4745,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -6553,8 +6551,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -8302,8 +8300,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -10234,8 +10232,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -12080,8 +12078,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -13701,8 +13699,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -15413,8 +15411,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -17290,8 +17288,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -19167,8 +19165,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -21044,8 +21042,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -22921,8 +22919,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -24798,8 +24796,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -26604,8 +26602,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -28410,8 +28408,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -30216,8 +30214,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
@@ -32022,8 +32020,8 @@
               "right": "0",
               "border-right": "0px solid #fff!important",
               "img": {
-                "width": "26px",
-                "height": "26px"
+                "width": "30px",
+                "height": "30px"
               },
               ".dropdown-item svg": {
                 "width": "26px",
