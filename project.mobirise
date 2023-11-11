@@ -11156,7 +11156,7 @@
               "display": "grid",
               "grid-template-columns": "repeat(8, 1fr)",
               "white-space": "nowrap",
-              "grid-gap": "12px",
+              "grid-gap": "32px 12px",
               "@media (max-width: 996px)": {
                 "grid-template-columns": "repeat(6, 1fr)"
               },
