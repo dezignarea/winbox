@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "fishing.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "dentalm5",
       "title": "DentalM5",
@@ -71,7 +71,7 @@
     "gdpr": false,
     "pwa-switcher": false,
     "global_header_custom": "<style>\n.header1 {\nscroll-margin-top: 38px;\n}\n</style>",
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "mcSmartCart": {
       "currency": "USD"
     },
@@ -1643,7 +1643,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "dentalm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content1 dentalm5\" group=\"Content\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <div class=\"title-wrapper\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                        How to Register</h3>\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Welcome to Winboxplayer</b></h2>\n                </div>\n            </div>\n        </div>\n        <div class=\"row mt-3 justify-content-center\">\n            <div class=\"col-12 col-md-3 step1\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-4.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Click Join Now.<br>Fill in your login info</p></div>\n            <div class=\"stepdesc\">\n                <div class=\"circle\">1</div>\n                <div class=\"steptitle\">Create Account</div>\n            </div></div>\n            <div class=\"col-12 col-md-3 step2\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-5.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Make your first deposit into Winbox</p></div><div class=\"stepdesc\">\n                <div class=\"circle\">2</div>\n                <div class=\"steptitle\">Make a deposit</div>\n            </div></div>\n            <div class=\"col-12 col-md-3 step3\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-6.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Start winning while playing on your favourite games</p></div><div class=\"stepdesc\">\n                <div class=\"circle\">3</div>\n                <div class=\"steptitle\">Start winning</div>\n            </div></div>\n            <div class=\"col-12 col-md-3 step4\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-7.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Don't forget to claim your bonuses</p></div><div class=\"stepdesc\">\n                <div class=\"circle\">4</div>\n                <div class=\"steptitle\">Get reward</div>\n            </div></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content1 dentalm5\" group=\"Content\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-3.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <div class=\"title-wrapper\">\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                        How to Register</h3>\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Welcome to Winbox Official Malaysia</b></h2>\n                </div>\n            </div>\n        </div>\n        <div class=\"row mt-3 justify-content-center\">\n            <div class=\"col-12 col-md-3 step1\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-4.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Click Join Now.<br>Fill in your login info</p></div>\n            <div class=\"stepdesc\">\n                <div class=\"circle\">1</div>\n                <div class=\"steptitle\">Create Account</div>\n            </div></div>\n            <div class=\"col-12 col-md-3 step2\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-5.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Make your first deposit into Winbox</p></div><div class=\"stepdesc\">\n                <div class=\"circle\">2</div>\n                <div class=\"steptitle\">Make a deposit</div>\n            </div></div>\n            <div class=\"col-12 col-md-3 step3\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-6.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Start winning while playing on your favourite games</p></div><div class=\"stepdesc\">\n                <div class=\"circle\">3</div>\n                <div class=\"steptitle\">Start winning</div>\n            </div></div>\n            <div class=\"col-12 col-md-3 step4\">\n                <div class=\"game-feature\">\n                <img src=\"@PROJECT_PATH@/assets/images/download-7.svg\" alt>\n                <p class=\"section-content mbr-fonts-style\" mbr-theme-style=\"display-7\">Don't forget to claim your bonuses</p></div><div class=\"stepdesc\">\n                <div class=\"circle\">4</div>\n                <div class=\"steptitle\">Get Withdrawal</div>\n            </div></div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "content1-32",
@@ -25490,11 +25490,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnxXm8bb5",
+          "_anchor": "menu1-5h",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-5h"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -25557,11 +25557,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnxXo0ZZ1",
+          "_anchor": "header01-5i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-5i"
+          "_params": {}
         },
         {
           "_customTemplate": true,
@@ -25771,11 +25771,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnxXpQNFh",
+          "_anchor": "content1-5l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-5l"
+          "_params": {}
         },
         {
           "_name": "slider3",
@@ -25926,11 +25926,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnxXqZscZ",
+          "_anchor": "slider3-5m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "slider3-5m"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -26096,11 +26096,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnxXrNeaG",
+          "_anchor": "header01-5n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-5n"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -26264,11 +26264,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnxXsfNZY",
+          "_anchor": "header01-5o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-5o"
+          "_params": {}
         },
         {
           "alias": false,
@@ -26499,11 +26499,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnxXsIoVl",
+          "_anchor": "footer1-5p",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer1-5p"
+          "_params": {}
         }
       ]
     },
@@ -27293,11 +27293,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUny2UfC6e",
+          "_anchor": "menu1-5q",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-5q"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -27360,11 +27360,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUny2VQRAa",
+          "_anchor": "header01-5r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-5r"
+          "_params": {}
         },
         {
           "_customTemplate": true,
@@ -27574,11 +27574,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUny2WKKDR",
+          "_anchor": "content1-5u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-5u"
+          "_params": {}
         },
         {
           "_name": "slider3",
@@ -27729,11 +27729,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUny2X4U1v",
+          "_anchor": "slider3-5v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "slider3-5v"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -27899,11 +27899,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUny2Y13uu",
+          "_anchor": "header01-5w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-5w"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -28067,11 +28067,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUny2YuRjf",
+          "_anchor": "header01-5x",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-5x"
+          "_params": {}
         },
         {
           "alias": false,
@@ -28302,11 +28302,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUny2YUzT1",
+          "_anchor": "footer1-5y",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer1-5y"
+          "_params": {}
         }
       ]
     },
@@ -29096,11 +29096,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnyawqYvq",
+          "_anchor": "menu1-5z",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-5z"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -29163,11 +29163,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyayc5BN",
+          "_anchor": "header01-60",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-60"
+          "_params": {}
         },
         {
           "_customTemplate": true,
@@ -29377,11 +29377,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyaz82wp",
+          "_anchor": "content1-63",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-63"
+          "_params": {}
         },
         {
           "_name": "slider3",
@@ -29532,11 +29532,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnyazDfVG",
+          "_anchor": "slider3-64",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "slider3-64"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -29702,11 +29702,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyaAvwla",
+          "_anchor": "header01-65",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-65"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -29870,11 +29870,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnyaAW8uO",
+          "_anchor": "header01-66",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-66"
+          "_params": {}
         },
         {
           "alias": false,
@@ -30105,11 +30105,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyaBpMzw",
+          "_anchor": "footer1-67",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer1-67"
+          "_params": {}
         }
       ]
     },
@@ -30899,11 +30899,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnycCqp9t",
+          "_anchor": "menu1-68",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-68"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -30966,11 +30966,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnycDKdNX",
+          "_anchor": "header01-69",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-69"
+          "_params": {}
         },
         {
           "_customTemplate": true,
@@ -31180,11 +31180,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnycF9pgb",
+          "_anchor": "content1-6c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-6c"
+          "_params": {}
         },
         {
           "_name": "slider3",
@@ -31335,11 +31335,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnycFy8nK",
+          "_anchor": "slider3-6d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "slider3-6d"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -31505,11 +31505,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnycGm06v",
+          "_anchor": "header01-6e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-6e"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -31673,11 +31673,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnycGO5R6",
+          "_anchor": "header01-6f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-6f"
+          "_params": {}
         },
         {
           "alias": false,
@@ -31908,11 +31908,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnycHfIXe",
+          "_anchor": "footer1-6g",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer1-6g"
+          "_params": {}
         }
       ]
     },
@@ -32702,11 +32702,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnyhYfO6K",
+          "_anchor": "menu1-6h",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-6h"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -32769,11 +32769,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyhZFOxz",
+          "_anchor": "header01-6i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-6i"
+          "_params": {}
         },
         {
           "_customTemplate": true,
@@ -32983,11 +32983,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyi0Ec5v",
+          "_anchor": "content1-6l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-6l"
+          "_params": {}
         },
         {
           "_name": "slider3",
@@ -33138,11 +33138,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnyi0Zxjw",
+          "_anchor": "slider3-6m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "slider3-6m"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -33308,11 +33308,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyi1VzAt",
+          "_anchor": "header01-6n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-6n"
+          "_params": {}
         },
         {
           "_name": "header01",
@@ -33476,11 +33476,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tUnyi2qgLH",
+          "_anchor": "header01-6o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-6o"
+          "_params": {}
         },
         {
           "alias": false,
@@ -33711,11 +33711,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tUnyi2Sgp8",
+          "_anchor": "footer1-6p",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer1-6p"
+          "_params": {}
         }
       ]
     }
