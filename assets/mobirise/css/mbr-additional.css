@@ -35422,7 +35422,7 @@ a {
 .cid-tViYTxiWiN .filterDiv {
   position: relative;
   border-radius: 8px;
-  display: block;
+  display: none;
   transition: all .2s;
 }
 .cid-tViYTxiWiN .filterDiv .bn-desc {
@@ -35500,7 +35500,7 @@ a {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   white-space: nowrap;
-  grid-gap: 12px;
+  grid-gap: 24px 12px;
 }
 @media (max-width: 768px) {
   .cid-tViYTxiWiN .game-container {
