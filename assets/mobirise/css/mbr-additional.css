@@ -30193,7 +30193,7 @@ a {
 .cid-tTWn3xZWcb .filterDiv {
   position: relative;
   border-radius: 8px;
-  display: block;
+  display: none;
   transition: all .2s;
 }
 .cid-tTWn3xZWcb .filterDiv .bn-desc {
@@ -30206,6 +30206,8 @@ a {
   flex-direction: column;
   padding: 8px 0 0;
   align-items: center;
+  white-space: initial;
+  text-align: center;
 }
 .cid-tTWn3xZWcb .rtp {
   background: #0076ff;
