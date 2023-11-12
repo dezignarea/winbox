@@ -2232,9 +2232,10 @@ a {
   margin-bottom: 12px;
 }
 .cid-tTYsF27Ot1 .game-feature img {
-  height: 100px;
+  height: 120px;
   width: auto;
   object-fit: contain;
+  border-radius: 8px;
 }
 .cid-tU3dlFlme6 {
   padding-top: 0rem;
