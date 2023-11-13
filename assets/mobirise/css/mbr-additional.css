@@ -37177,12 +37177,14 @@ a {
   flex-direction: column;
   padding: 8px 0 0;
   align-items: center;
+  white-space: initial;
+  text-align: center;
 }
 .cid-tViYUJ5VhH .rtp {
   background: #0076ff;
   padding: 4px 8px;
   color: #fff;
-  width: 80px;
+  width: 90px;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
@@ -37207,7 +37209,7 @@ a {
   width: 100%;
   height: 100%;
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -37242,7 +37244,7 @@ a {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   white-space: nowrap;
-  grid-gap: 12px;
+  grid-gap: 32px 12px;
 }
 @media (max-width: 768px) {
   .cid-tViYUJ5VhH .game-container {
