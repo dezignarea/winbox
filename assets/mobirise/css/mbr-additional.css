@@ -31937,20 +31937,53 @@ a {
 }
 .cid-tViXhh6Eyp .filterDiv {
   position: relative;
-  border-radius: 8px;
-  display: block;
   transition: all .2s;
 }
+.cid-tViXhh6Eyp .filterDiv a {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.cid-tViXhh6Eyp .filterDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .2s;
+}
+.cid-tViXhh6Eyp .filterDiv img:hover {
+  scale: 1;
+}
 .cid-tViXhh6Eyp .filterDiv .bn-desc {
+  width: 100%;
+  padding: 8px 16px;
+  background: #23183d;
+  color: #fff;
   font-family: 'Schibsted Grotesk', sans-serif;
   font-size: 15px;
   display: flex;
-  justify-content: center;
-  color: #232323;
-  gap: 4px;
-  flex-direction: column;
-  padding: 8px 0 0;
   align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+}
+.cid-tViXhh6Eyp .playbtn {
+  padding: 8px 24px;
+  background: #ff5f00;
+  display: inline-flex;
+  border-radius: 99px;
+  transition: all .2s;
+  position: relative;
+  color: #fff;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+.cid-tViXhh6Eyp .playbtn:hover {
+  box-shadow: 0px 2px 16px 4px #e32f0380;
+}
+@media (max-width: 768px) {
+  .cid-tViXhh6Eyp .playbtn {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
 }
 .cid-tViXhh6Eyp .rtp {
   background: #0076ff;
@@ -31961,6 +31994,11 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
+}
+.cid-tViXhh6Eyp .filterDiv:hover img {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .cid-tViXhh6Eyp .gameimgcontainer {
   overflow: hidden;
@@ -31981,26 +32019,13 @@ a {
   width: 100%;
   height: 100%;
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   top: 101%;
   transition: all 0.2s;
   background: #ffffffc2;
-}
-.cid-tViXhh6Eyp .playbtn {
-  padding: 8px 24px;
-  background: #ff5f00;
-  display: inline-flex;
-  border-radius: 99px;
-  transition: all .2s;
-  position: relative;
-  color: #fff;
-  font-family: 'Schibsted Grotesk', sans-serif;
-}
-.cid-tViXhh6Eyp .playbtn:hover {
-  box-shadow: 0px 2px 12px 4px #e32f0357;
 }
 .cid-tViXhh6Eyp .winner {
   background: #f3f5f6;
@@ -32014,7 +32039,7 @@ a {
 }
 .cid-tViXhh6Eyp .game-container {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   white-space: nowrap;
   grid-gap: 12px;
 }
