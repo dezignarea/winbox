@@ -63571,6 +63571,16 @@ blockquote {
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
+.cid-tW3WPICDB8 .step-text {
+  height: 4em;
+  line-height: 1.5;
+}
+.cid-tW3WPICDB8 .dl-img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
 .cid-tW3WPICDB8 .mbr-fallback-image.disabled {
   display: none;
 }
