@@ -63409,7 +63409,7 @@ blockquote {
 @media (max-width: 992px) {
   .cid-tW3HWVDOCi .deviceimg {
     width: 100%;
-    height: 480px;
+    height: 400px;
     object-fit: contain;
     margin-top: 32px;
   }
@@ -63567,9 +63567,14 @@ blockquote {
   color: #5a5a5a;
 }
 .cid-tW3WPICDB8 {
-  padding-top: 3rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #f3f5f6;
+}
+.cid-tW3WPICDB8 .row {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 2rem 1rem;
 }
 .cid-tW3WPICDB8 .step-text {
   height: 4em;
@@ -63580,6 +63585,11 @@ blockquote {
   height: 500px;
   object-fit: contain;
   margin-bottom: 2rem;
+}
+@media (max-width: 780px) {
+  .cid-tW3WPICDB8 .dl-img {
+    height: 340px;
+  }
 }
 .cid-tW3WPICDB8 .mbr-fallback-image.disabled {
   display: none;
@@ -63617,6 +63627,70 @@ blockquote {
   text-align: center;
 }
 .cid-tW3WPICDB8 .mbr-text {
+  color: #212529;
+  text-align: center;
+}
+.cid-tWp8faW43e {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f3f5f6;
+}
+.cid-tWp8faW43e .row {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 2rem 1rem;
+}
+.cid-tWp8faW43e .step-text {
+  height: 4em;
+  line-height: 1.5;
+}
+.cid-tWp8faW43e .dl-img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+@media (max-width: 780px) {
+  .cid-tWp8faW43e .dl-img {
+    height: 340px;
+  }
+}
+.cid-tWp8faW43e .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tWp8faW43e .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tWp8faW43e .container-fluid {
+  padding: 0 60px;
+}
+@media (max-width: 992px) {
+  .cid-tWp8faW43e .container-fluid {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 992px) {
+  .cid-tWp8faW43e .container {
+    padding: 0 30px;
+  }
+}
+.cid-tWp8faW43e .title-wrapper .mbr-section-title {
+  margin-bottom: 2rem;
+}
+.cid-tWp8faW43e .title-wrapper .mbr-text {
+  margin-bottom: 0;
+}
+.cid-tWp8faW43e .mbr-section-title {
+  color: #212529;
+  text-align: center;
+}
+.cid-tWp8faW43e .mbr-text {
   color: #212529;
   text-align: center;
 }
