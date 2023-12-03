@@ -26654,7 +26654,7 @@ blockquote {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  display: block;
+  display: none;
   transition: all .2s;
 }
 .cid-tUgR1OPZGD .filterDiv img {
