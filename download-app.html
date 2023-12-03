@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/frame-33645-272x129.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/frame-621.png" type="image/x-icon">
   <meta name="description" content="">
   
   
@@ -29,6 +29,33 @@ scroll-margin-top: 38px;
 .nav-item .nav-link:hover, .nav-item .nav-link:focus {
   color: #dc3545!important;
 }
+  .filterDiv {
+    .playbtn {
+      background: #e82e06;
+      border-radius: 8px;
+      padding: 8px 16px;
+      -webkit-transition: all 0.2s ease-in-out;
+      transform: scale(1);
+      box-shadow: 0 0 0 0 #e82e06, 1);
+      animation: pulse-red 2s infinite;
+      &:hover {
+        background: #b22709;
+      }
+    }
+    @keyframes pulse-red {
+      0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(232, 46, 6, 0.7);
+      }
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgba(232, 46, 6, 0.9);
+      }
+      100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(232, 46, 6, 0);
+      }
+    }
 </style>
   
 
