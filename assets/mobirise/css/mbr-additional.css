@@ -75971,6 +75971,12 @@ blockquote {
   flex-direction: row;
   padding: 0 60px;
 }
+@media (max-width: 767px) {
+  .cid-tXtX8sWA2S .section-container {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+}
 .cid-tXtX8sWA2S .gamerule-sidebar {
   align-self: flex-start;
   display: flex;
