@@ -2868,6 +2868,30 @@ a {
   padding-bottom: 30px;
   background-color: #ffffff;
 }
+.cid-tU3ifGecPi .btn-join {
+  background-color: #D94225!important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transform: scale(1);
+  box-shadow: 0 0 0 0 #e82e06, 1);
+  animation: pulse-red 2s infinite;
+}
+.cid-tU3ifGecPi .btn-join:hover {
+  background: #b22709;
+}
+@keyframes pulse-red {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(232, 46, 6, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 16px rgba(232, 46, 6, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(232, 46, 6, 0);
+  }
+}
 .cid-tU3ifGecPi .mbr-section-btn .btn {
   border: 1px solid #f36622 !important;
   padding: 12px 32px;
