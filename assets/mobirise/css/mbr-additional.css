@@ -76695,7 +76695,7 @@ blockquote {
 }
 @media (max-width: 767px) {
   .cid-tXtX8sWA2S .section-container {
-    padding: 0 20px;
+    padding: 0px;
     flex-direction: column;
   }
 }
@@ -76720,12 +76720,30 @@ blockquote {
   color: #fff;
   background: #ef4a18;
 }
+@media (max-width: 768px) {
+  .cid-tXtX8sWA2S .gamerule-sidebar {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    margin-bottom: 16px;
+    margin-top: -32px;
+  }
+}
 .cid-tXtX8sWA2S .headerbg {
-  background: url(https://i.imgur.com/jWvXhUU.png);
   width: 100%;
   padding: 2rem 2rem 3rem;
   border-radius: 1rem;
   color: #fff;
+}
+@media (max-width: 768px) {
+  .cid-tXtX8sWA2S .headerbg {
+    padding: 16px;
+  }
 }
 .cid-tXtX8sWA2S .tabl-container {
   width: 100%;
@@ -76762,6 +76780,29 @@ blockquote {
   height: 400px;
   object-fit: contain;
   margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-tXtX8sWA2S .favimg {
+    height: 100%;
+  }
+}
+.cid-tXtX8sWA2S .rules-card-img {
+  height: 120px;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .cid-tXtX8sWA2S .rules-card-img {
+    height: 100%;
+  }
+}
+.cid-tXtX8sWA2S .rules-card-img-2 {
+  height: 360px;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .cid-tXtX8sWA2S .rules-card-img-2 {
+    height: 100%;
+  }
 }
 .cid-tXtX8sWA2S .row {
   background: #fff;
@@ -76800,7 +76841,11 @@ blockquote {
 }
 @media (max-width: 992px) {
   .cid-tXtX8sWA2S .container-fluid {
-    padding: 0 30px;
+    padding: 0 24px;
+  }
+  .cid-tXtX8sWA2S .container-fluid .row {
+    padding: 12px 2px;
+    border-radius: 20px;
   }
 }
 @media (max-width: 992px) {
