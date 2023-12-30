@@ -89672,6 +89672,96 @@ blockquote {
   padding-bottom: 2rem;
   background-color: #f3f5f6;
 }
+.cid-tZQcDy7Xhq .rakingofhands-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  gap: 16px;
+  align-items: center;
+}
+.cid-tZQcDy7Xhq .rakingofhands-list .item {
+  width: 240px;
+  background: #50965E;
+  border-radius: 8px;
+  overflow: hidden;
+  align-self: stretch;
+}
+.cid-tZQcDy7Xhq .rakingofhands-list .title {
+  background: #3B7648;
+  padding: 8px;
+}
+.cid-tZQcDy7Xhq .rakingofhands-list .content {
+  padding: 16px;
+}
+.cid-tZQcDy7Xhq .rakingofhands-list img {
+  height: auto;
+  width: 40px;
+}
+.cid-tZQcDy7Xhq .payoutbet-list .item {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #cacaca;
+  padding: 24px 0;
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  .cid-tZQcDy7Xhq .payoutbet-list .item {
+    flex-direction: column;
+  }
+}
+.cid-tZQcDy7Xhq .payoutbet-list .title p {
+  width: 200px;
+  background: #50965e;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .cid-tZQcDy7Xhq .payoutbet-list .title p {
+    width: 100%;
+  }
+}
+.cid-tZQcDy7Xhq .payoutbet-list .content.center {
+  display: flex;
+  align-items: center;
+}
+.cid-tZQcDy7Xhq .payoutbet-list .content p {
+  text-align: left;
+}
+.cid-tZQcDy7Xhq .payoutbet-list .img1 {
+  width: auto;
+  height: 300px;
+}
+.cid-tZQcDy7Xhq .payoutbet-list .img2 {
+  height: 140px;
+  width: auto;
+}
+.cid-tZQcDy7Xhq .payoutbet-list .card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-tZQcDy7Xhq .payoutbet-list .card-list {
+    flex-direction: column;
+  }
+}
+.cid-tZQcDy7Xhq .payoutbet-list .card-list .card {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .cid-tZQcDy7Xhq .payoutbet-list .card-list .card {
+    width: 90%;
+  }
+}
+.cid-tZQcDy7Xhq .payoutbet-list .card-list .card p {
+  text-align: center;
+}
 .cid-tZQcDy7Xhq .instruction-list {
   display: flex;
   gap: 12px;
