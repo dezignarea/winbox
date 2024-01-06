@@ -61950,10 +61950,10 @@ blockquote {
   top: 0%;
 }
 .cid-tViYXjQOBa .playcontainer {
+  display: none;
   width: 100%;
   height: 100%;
   position: absolute;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -62106,6 +62106,9 @@ blockquote {
 }
 .cid-tViYXjQOBa .mbr-text {
   color: #212529;
+}
+.cid-tViYXjQOBa P {
+  text-align: center;
 }
 .cid-tVnfjjq0xD {
   padding-top: 1rem;
